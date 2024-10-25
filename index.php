@@ -14,5 +14,6 @@ foreach ($allfiles as $file) {
         array_push($scripts, substr($file_parts['filename'], 0, -11));        
     }
 }
+
                         
 require_once '_loader.php';
